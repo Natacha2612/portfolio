@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+header{
+   border-style: solid;
+   display: flex;
+   justify-content: space-between;
+   margin: 10px;
+   padding: 10px;
+  
+}
+h2{
+    color: black;
+    font-family: 'teko',sans-serif;
+}
+span{
+    color:red;
+}
+nav{
+    display: flex;
+    float: right;
+    list-style-type: none;
+    margin-top: 5px;
+    
+}
+li a{
+    text-decoration:none;
+    margin: 10px;
+    color: red;
+    font-size: 15px;
+    font-family:'teko',sans-serif;
+    font-weight: bold;
+}
+section{
+    display: flex;
+    justify-content:center;
+    justify-content:space-between;
+    margin: 30px;
+}
+article{
+    border: 3px solid black;
+    height: 50vh;
+    width: 50vw;
+   
+}
+img{
+    border: 3px solid black;
+    width: 40vw;
+    height: 50vh;
+}
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:10px;
+    padding: 5px;
+    
+}
+h1{
+    text-align:center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+h3{
+    margin-left: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+footer{
+    list-style-type: none;
+   display: flex;
+   justify-content: space-around;
+   border: 3px solid black;
+   margin: 25px;
+   font-weight:bold;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   font-size: 13px;
+}
+#scontact{
+    display: flex;
+    justify-content:center;
+    justify-content:space-between;
+    margin:30px;
+}
+#secform{
+    border: 3px solid black;
+    text-align: center;
+    width: 30vw;
+   height: 80vh;
+   margin-left:35%;
+   border-radius: 10px;
+}
+.slabel{
+    
+    font-weight: bold;
+}
+.sinput{
+    padding: 8px;
+    margin: 3px;
+}
+table{
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px;
+    margin-left: 25%;
+}
+th ,td{
+    border:1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+tr{
+    border: 3px solid black;
+   
+}
+th{
+    background-color:red;
+}
